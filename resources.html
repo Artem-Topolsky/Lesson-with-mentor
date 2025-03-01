@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&family=Montserrat:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Bisness promotion</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header-container">
+        <nav class="nav">
+          <a class="nav-logo" href="./index.html"
+            ><img src="/images/logo.png" alt="logo" />Product
+          </a>
+          <ul class="nav-list">
+            <li>
+              <a class="nav-list-item active" href="./product.html">Product</a>
+            </li>
+            <li><a class="nav-list-item" href="./pricises.html">Pricing</a></li>
+            <li>
+              <a class="nav-list-item" href="./customers.html">Customers</a>
+            </li>
+            <li><a class="nav-list-item" href="./">Resources</a></li>
+          </ul>
+        </nav>
+        <ul class="list-btn">
+          <li>
+            <button class="btn-one" type="button">Sign In</button>
+          </li>
+          <li>
+            <button class="btn-two" type="button">Sign Up</button>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <p class="form-text">
+          Need more detailed information? Get in touch with us.
+        </p>
+        <ul>
+          <li>
+            <a href=""
+              ><svg><use></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg><use></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href=""
+              ><svg><use></use></svg
+            ></a>
+          </li>
+        </ul>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52962.12962738234!2d-118.17157670105293!3d33.93770458898018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2cc4c1e082291%3A0x9140a72616789d0a!2z0JTQsNGD0L3QuCwg0JrQsNC70LjRhNC-0YDQvdC40Y8sINCh0KjQkA!5e0!3m2!1sru!2sua!4v1740852704088!5m2!1sru!2sua"
+          width="871"
+          height="344"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <div class="form-div">
+          <form class="form">
+            <h2 class="title-form">Send a message</h2>
+
+            <label for="name" class="form-label"></label>
+
+            <input
+              class="form-input"
+              id="name"
+              type="text"
+              name="user"
+              placeholder="Your Name"
+            />
+
+            <label for="email" class="form-label"></label>
+
+            <input
+              class="form-input"
+              id="email"
+              type="text"
+              name="email"
+              placeholder="Your Email"
+            />
+
+            <div class="textarea">
+              <label for="user-comment" class="form-label"></label>
+              <textarea
+                class="comment-input"
+                id="user-comment"
+                name="user-comment"
+                rows="10"
+                placeholder="Your Message"
+              ></textarea>
+            </div>
+
+            <button class="form-button" type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

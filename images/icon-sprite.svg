@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-Group-1341" viewBox="0 0 33 32">
+      <path fill="#edfffc" d="M32.606 16c0 8.837-7.163 16-16 16s-16-7.163-16-16 7.163-16 16-16 16 7.163 16 16z" style="fill:var(--color1, #edfffc)"/>
+      <path fill="none" stroke="#02897a" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.28" d="M25.406 8.808a8.717 8.717 0 0 1-2.512 1.224 3.583 3.583 0 0 0-6.287 2.399v.8a8.524 8.524 0 0 1-7.2-3.624s-3.2 7.2 4 10.4a9.316 9.316 0 0 1-5.6 1.6c7.2 4 16 0 16-9.2a3.608 3.608 0 0 0-.064-.664 6.177 6.177 0 0 0 1.664-2.936v0z" style="stroke:var(--color2, #02897a)"/>
+    </symbol>
+    <symbol id="icon-facebook" viewBox="0 0 33 32">
+      <path fill="none" stroke="#02897a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.133" d="M24.505 2.667h-4a6.67 6.67 0 0 0-6.667 6.667v4h-4v5.333h4v10.667h5.333V18.667h4l1.333-5.333h-5.333v-4A1.335 1.335 0 0 1 20.505 8h4V2.667z" style="stroke:var(--color2, #02897a)"/>
+    </symbol>
+    <symbol id="icon-instagram" viewBox="0 0 31 32">
+      <path fill="none" stroke="#02897a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.064" d="M21.935 2.602H9.032A6.452 6.452 0 0 0 2.58 9.054v12.903a6.452 6.452 0 0 0 6.452 6.452h12.903a6.452 6.452 0 0 0 6.452-6.452V9.054a6.452 6.452 0 0 0-6.452-6.452z" style="stroke:var(--color2, #02897a)"/>
+      <path fill="none" stroke="#02897a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.064" d="M20.645 14.692a5.161 5.161 0 1 1-10.211 1.514 5.161 5.161 0 0 1 10.211-1.514zM22.581 8.408h.013" style="stroke:var(--color2, #02897a)"/>
+    </symbol>
+  </defs>
+</svg>
