@@ -149,11 +149,32 @@ button {
   align-items: center;
 }
 
-.icons-container {
-}
 .list-icons-item {
   display: flex;
   gap: 30px;
+}
+
+.icon-product-div {
+  border-radius: 19px;
+  width: 54px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.list-icons:nth-child(1) .icon-product-div {
+  background-color: #02897a;
+}
+.list-icons:nth-child(2) .icon-product-div {
+  background-color: #4d8dff;
+}
+.list-icons:nth-child(3) .icon-product-div {
+  background-color: #740a76;
+}
+.list-icons:nth-child(4) .icon-product-div {
+  background-color: #f03e3d;
 }
 .title {
   padding-bottom: 50px;
@@ -196,7 +217,6 @@ button {
 .management {
   margin-bottom: 79px;
   width: 1150px;
-  border: 4px solid red;
   margin: 0 auto;
 }
 
@@ -204,8 +224,7 @@ button {
   display: inline-flex;
   flex-direction: row-reverse;
 }
-.management-wrap {
-}
+
 .title-management {
   display: block;
   font-weight: 600;
